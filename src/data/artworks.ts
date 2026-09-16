@@ -19,6 +19,7 @@ import P0036 from "@/assets/P0036.jpg";
 import P0037 from "@/assets/P0037.jpg";
 import P0038 from "@/assets/P0038.jpg";
 import P0039 from "@/assets/P0039.jpg";
+import P0042 from "@/assets/P0042.jpg";
 
 export interface Artwork {
   id: string;
@@ -53,6 +54,7 @@ export const artworks: Artwork[] = [
   { id: "P0037", title: "Angel estructural", year: 2026, technique: "Pintura al óleo sobre madera", dimensions: "60x45 cm.", series: "Óleo", image: "/assets/P0037.jpg" },
   { id: "P0038", title: "Luto: Cuando los colores de apagan.", year: 2025, technique: "Pintura acrílica sobre madera", dimensions: "1,20x90 cm.", series: "Acrílico", note: "Seleccionada en el Salón Elsa Morales 2025 en la galería de arte Nacional.", image: "/assets/P0038.jpg" },
   { id: "P0039", title: "Evolución felina.", year: 2022, technique: "Pintura al óleo sobre lienzo", dimensions: "60x80 cm.", series: "Óleo", image: "/assets/P0039.jpg" },
+  { id: "P0042", title: "Obsesión", year: 2026, technique: "Pintura al óleo sobre madera", dimensions: "60x45 cm.", series: "Óleo", image: "/assets/P0042.jpg" },
 ];
 
 export const series = [...new Set(artworks.map((a) => a.series))];
