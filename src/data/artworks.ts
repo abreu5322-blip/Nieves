@@ -20,6 +20,7 @@ import P0037 from "@/assets/P0037.jpg";
 import P0038 from "@/assets/P0038.jpg";
 import P0039 from "@/assets/P0039.jpg";
 import P0042 from "@/assets/P0042.jpg";
+import P0043 from "@/assets/P0043.jpg";
 
 export interface Artwork {
   id: string;
@@ -33,6 +34,7 @@ export interface Artwork {
 }
 
 export const artworks: Artwork[] = [
+  { id: "P0043", title: "Aceptar la oscuridad", year: 2026, technique: "Pintura al óleo sobre madera", dimensions: "60x45 cm.", series: "Óleo", image: "/assets/P0043.jpg" },
   { id: "P0042", title: "Obsesión", year: 2026, technique: "Pintura al óleo sobre madera", dimensions: "60x45 cm.", series: "Óleo", image: "/assets/P0042.jpg" },
   { id: "P0017", title: "Pensamiento disuelto.", year: 2026, technique: "Pintura al óleo sobre madera", dimensions: "60x45 cm.", series: "Óleo", image: "/assets/P0017.jpg" },
   { id: "P0018", title: "Naturaleza reflejada.", year: 2026, technique: "Pintura al óleo sobre madera", dimensions: "60x45 cm.", series: "Óleo", image: "/assets/P0018.jpg" },
